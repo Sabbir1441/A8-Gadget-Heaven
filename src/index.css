@@ -3,13 +3,21 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
-body {
+body{
   font-family: "Sora", serif;
   background: #eeeeee;
   padding-top: 30px;
 }
-
 li .active {
   background-color: transparent !important;
   text-decoration: underline;
+} 
+
+#cart-wishlist .active{
+  background-color: white;
+  color: #9538E2;
+}
+#category-item .active{
+  background-color: #9538E2;
+  color: white;
 }
