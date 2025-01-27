@@ -1,9 +1,12 @@
 import Navbar from "../components/Navbar";
+import Home from "../pages/Home";
+
+
 const Root = () => {
     return (
         <div>
             <Navbar></Navbar>
-            <h1>Hello</h1>
+            <Home></Home>
         </div>
     );
 };
