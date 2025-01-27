@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
 const Product = ({ product }) => {
+    // eslint-disable-next-line no-unused-vars
     const {product_title, product_image, category, price, description, Specification, availability, rating, warranty_period} = product;
   return (
     <div className="card bg-slate-200 shadow-xl">

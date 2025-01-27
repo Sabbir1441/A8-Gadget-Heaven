@@ -1,5 +1,4 @@
 import Banner from '../components/Banner';
-import { createContext } from 'react'; 
 import Products from '../components/Products';
 
 
