@@ -1,34 +1,50 @@
 import Navbar from "../components/Navbar";
 import { Outlet } from "react-router-dom";
 import { useEffect, useState } from "react";
-import { CategoryContext, DataContext } from "../utilities/context";
 import Footer from "../components/Footer";
+import {
+    CategoryContext,
+    DataContext,
+    LoadingContext,
+} from "../utilities/context";
 
 
 
 const Root = () => {
+    const [loading, setLoading] = useState(true);
     const [data, setData] = useState([]);
     const [categories, setCategories] = useState({});
+
+
     useEffect(() => {
-        fetch("deviceData.json")
+        fetch("/deviceData.json")
             .then((res) => res.json())
             .then((data) => setData(data));
+        setLoading(false)
     }, []);
+
     useEffect(() => {
-        fetch("categories.json")
+        fetch("/categories.json")
             .then((res) => res.json())
             .then((categories) => setCategories(categories));
+        setLoading(false)
     }, []);
+
+    console.log(data)
+    console.log(categories)
+
     return (
         <div>
 
-            <CategoryContext.Provider value={categories}>
+            <LoadingContext.Provider value={{ loading, setLoading }}>
                 <DataContext.Provider value={data}>
-                    <Navbar></Navbar>
-                    <Outlet></Outlet>
-                    <Footer></Footer>
+                    <CategoryContext.Provider value={categories}>
+                        <Navbar></Navbar>
+                        <Outlet></Outlet>
+                        <Footer></Footer>
+                    </CategoryContext.Provider>
                 </DataContext.Provider>
-            </CategoryContext.Provider>
+            </LoadingContext.Provider>
         </div>
     );
 };

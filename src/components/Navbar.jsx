@@ -1,9 +1,12 @@
-import { NavLink, Link } from "react-router-dom";
+import { NavLink, Link, useLocation } from "react-router-dom";
 import { IoCartOutline } from "react-icons/io5";
 import { FaRegHeart } from "react-icons/fa";
 
 
 const Navbar = () => {
+
+    const location = useLocation()
+
 
     const links = <>
         <li><NavLink to={"/"}>Home</NavLink></li>
@@ -12,8 +15,8 @@ const Navbar = () => {
     </>
 
     return (
-        <div className="mx-3 pt-3 lg:px-6 md:mx-4 lg:mx-7 rounded-t-xl bg-[#9538E2]">
-            <div className="navbar text-white container mx-auto">
+        <div className={`mx-3 pt-3 lg:px-6 md:mx-4 lg:mx-7 rounded-t-xl ${location.pathname == "/" ? "bg-[#9538E2] text-white" : "bg-transparent"}`}>
+            <div className="navbar container mx-auto">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

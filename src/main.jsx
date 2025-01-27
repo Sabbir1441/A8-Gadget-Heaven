@@ -8,6 +8,8 @@ import {
 } from "react-router-dom";
 import ErrorPage from './components/ErrorPage';
 import Home from './pages/Home';
+import Dashboard from './pages/Dashboard';
+import ProductDetails from './components/ProductDetails';
 
 
 const router = createBrowserRouter([
@@ -18,7 +20,12 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Home></Home>,
+        element: <Home></Home>
+      },
+      {
+        path: "/product/:productId",
+        element: <ProductDetails></ProductDetails>,
+        loader: ()=> fetch("/deviceData.json"),
       },
       {
         path: "/statistics",
@@ -26,7 +33,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/dashboard",
-        element: <Home></Home>
+        element: <Dashboard></Dashboard>
       },
     ]
   },

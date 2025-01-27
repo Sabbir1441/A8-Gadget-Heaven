@@ -11,7 +11,7 @@ const DisplayCategory = ({category}) => {
 
 
 DisplayCategory.propTypes = {
-    category: PropTypes.text
+    category: PropTypes.string.isRequired
 };
 
 
