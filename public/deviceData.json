@@ -1,0 +1,198 @@
+[
+    {
+        "product_id": "P001",
+        "product_title": "Apple iPhone 14 Pro Max",
+        "product_image": "https://i.ibb.co.com/6r19Pdt/image-2.jpg",
+        "category": "Phones",
+        "price": 1199.0,
+        "description": "The latest iPhone with a powerful A16 chip, a stunning OLED display, and an advanced camera system.",
+        "Specification": [
+            "Screen Size: 6.7 inches",
+            "Storage: 256GB",
+            "Processor: A16 Bionic",
+            "Camera: 48MP main, 12MP ultra-wide, 12MP telephoto"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "product_id": "P002",
+        "product_title": "Samsung Galaxy S23 Ultra",
+        "product_image": "https://i.ibb.co.com/zGxv0s9/image-3.jpg",
+        "category": "Phones",
+        "price": 1199.0,
+        "description": "Samsung's flagship with a 200MP camera, S-Pen support, and powerful performance for photography lovers.",
+        "Specification": [
+            "Screen Size: 6.8 inches",
+            "Storage: 512GB",
+            "Battery: 5000mAh",
+            "Camera: 200MP main, 10MP periscope telephoto"
+        ],
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "product_id": "P003",
+        "product_title": "Dell XPS 15 9510",
+        "product_image": "https://i.ibb.co.com/j3X8q4k/image-4.jpg",
+        "category": "Laptops",
+        "price": 2149.99,
+        "description": "A powerful laptop for creators, featuring an OLED 4K display, Intel Core i9 processor, and NVIDIA GTX 1650 graphics.",
+        "Specification": [
+            "Screen Size: 15.6 inches",
+            "Resolution: 4K UHD",
+            "Storage: 1TB SSD",
+            "RAM: 32GB",
+            "Graphics: NVIDIA GTX 1650"
+        ],
+        "availability": false,
+        "rating": 4.6
+    },
+    {
+        "product_id": "P004",
+        "product_title": "Sony WH-1000XM5 Wireless Headphones",
+        "product_image": "https://i.ibb.co.com/FDBn0bJ/image-5.jpg",
+        "category": "Headphones",
+        "price": 349.99,
+        "description": "Industry-leading noise cancellation and premium sound quality for an immersive audio experience.",
+        "Specification": [
+            "Battery Life: 30 hours",
+            "Noise Cancellation: Active",
+            "Connectivity: Bluetooth 5.0",
+            "Microphone: Built-in for calls"
+        ],
+        "availability": true,
+        "rating": 4.9
+    },
+    {
+        "product_id": "P005",
+        "product_title": "Apple MacBook Air M2",
+        "product_image": "https://i.ibb.co.com/VLbSBL8/image-6.jpg",
+        "category": "Laptops",
+        "price": 1249.0,
+        "description": "The MacBook Air with the M2 chip offers remarkable speed, efficiency, and battery life.",
+        "Specification": [
+            "Screen Size: 13.6 inches",
+            "Processor: Apple M2",
+            "Storage: 512GB SSD",
+            "RAM: 16GB",
+            "Battery Life: Up to 18 hours"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "product_id": "P006",
+        "product_title": "ASUS ROG Zephyrus G14",
+        "product_image": "https://i.ibb.co.com/LnQnKXR/image-7.jpg",
+        "category": "Laptops",
+        "price": 1599.99,
+        "description": "A compact gaming laptop with a Ryzen 9 processor and a 14-inch QHD display.",
+        "Specification": [
+            "Screen Size: 14 inches",
+            "Resolution: QHD",
+            "Processor: AMD Ryzen 9",
+            "Graphics: NVIDIA GeForce RTX 3060",
+            "Battery Life: Up to 10 hours"
+        ],
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+        "product_id": "P007",
+        "product_title": "Samsung Galaxy Tab S8 Ultra",
+        "product_image": "https://i.ibb.co.com/7p6MXX1/image-8.jpg",
+        "category": "Tablets",
+        "price": 1099.0,
+        "description": "A powerful Android tablet with a large 14.6-inch screen, perfect for multitasking and entertainment.",
+        "Specification": [
+            "Screen Size: 14.6 inches",
+            "Processor: Snapdragon 8 Gen 1",
+            "Storage: 256GB",
+            "Battery Life: 11200mAh",
+            "Camera: 13MP main, 6MP ultra-wide"
+        ],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "product_id": "P008",
+        "product_title": "JBL Flip 6 Portable Speaker",
+        "product_image": "https://i.ibb.co.com/Z8k4dzz/image-9.jpg",
+        "category": "Speakers",
+        "price": 129.99,
+        "description": "A waterproof Bluetooth speaker with rich bass, great sound, and long battery life for outdoor activities.",
+        "Specification": [
+            "Battery Life: 12 hours",
+            "Waterproof Rating: IP67",
+            "Bluetooth Version: 5.1",
+            "Weight: 550 grams"
+        ],
+        "availability": true,
+        "rating": 4.4
+    },
+    {
+        "product_id": "P009",
+        "product_title": "Google Pixel 7 Pro",
+        "product_image": "https://i.ibb.co.com/rw0kbcc/image-10.jpg",
+        "category": "Phones",
+        "price": 899.0,
+        "description": "Google's latest flagship with AI-enhanced camera, 5G connectivity, and a smooth 120Hz display.",
+        "Specification": [
+            "Screen Size: 6.7 inches",
+            "Storage: 128GB",
+            "Processor: Google Tensor G2",
+            "Camera: 50MP main, 12MP ultra-wide, 48MP telephoto"
+        ],
+        "availability": false,
+        "rating": 4.6
+    },
+    {
+        "product_id": "P010",
+        "product_title": "OnePlus 11",
+        "product_image": "https://i.ibb.co.com/X8xqGXR/salami-share.jpg",
+        "category": "Phones",
+        "price": 799.0,
+        "description": "The latest OnePlus phone featuring a Snapdragon 8 Gen 2 chip and a Hasselblad-enhanced camera system.",
+        "Specification": [
+            "Screen Size: 6.7 inches",
+            "Storage: 256GB",
+            "Processor: Snapdragon 8 Gen 2",
+            "Camera: 50MP main, 48MP ultra-wide, 32MP telephoto"
+        ],
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+        "product_id": "P011",
+        "product_title": "Xiaomi 13 Pro",
+        "product_image": "https://i.ibb.co.com/41Pf341/images-3.jpg",
+        "category": "Phones",
+        "price": 899.0,
+        "description": "Flagship Xiaomi phone with Leica optics and a Snapdragon 8 Gen 2 processor.",
+        "Specification": [
+            "Screen Size: 6.73 inches",
+            "Storage: 256GB",
+            "Processor: Snapdragon 8 Gen 2",
+            "Camera: 50MP main, 50MP ultra-wide, 50MP telephoto"
+        ],
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "product_id": "P012",
+        "product_title": "Sony Xperia 1 IV",
+        "product_image": "https://i.ibb.co.com/fdT3SfD/images-4.jpg",
+        "category": "Phones",
+        "price": 999.0,
+        "description": "Sony's flagship phone with a 4K OLED display and a unique variable telephoto lens.",
+        "Specification": [
+            "Screen Size: 6.5 inches",
+            "Resolution: 4K OLED",
+            "Processor: Snapdragon 8 Gen 1",
+            "Camera: 12MP variable telephoto, 12MP ultra-wide, 12MP main"
+        ],
+        "availability": true,
+        "rating": 4.4
+    }
+]
