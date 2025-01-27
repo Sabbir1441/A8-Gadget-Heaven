@@ -12,7 +12,7 @@ const Navbar = () => {
     </>
 
     return (
-        <div className="mx-3 mt-3 md:mt-4 lg:mt-7 md:mx-4 lg:mx-7 rounded-t-xl bg-[#9538E2] pt-4">
+        <div className="mx-3 pt-3 lg:px-6 md:mx-4 lg:mx-7 rounded-t-xl bg-[#9538E2]">
             <div className="navbar text-white container mx-auto">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -47,8 +47,8 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end gap-4">
-                    <Link className="text-2xl p-2 rounded-full shadow text-black bg-white relative" to={"/cart"}><IoCartOutline /><span className="absolute flex justify-center items-center w-7 h-7 rounded-full -top-3 -right-3 text-sm bg-slate-200">0</span></Link>
-                    <Link className="text-2xl p-2 rounded-full shadow text-black bg-white relative" to={"/wishlist"}><FaRegHeart /><span className="absolute flex justify-center items-center w-7 h-7 rounded-full -top-3 -right-3 text-sm bg-slate-200">0</span></Link>
+                    <Link className="text-lg p-2 rounded-full shadow text-black bg-white relative" to={"/cart"}><IoCartOutline /><span className="absolute flex justify-center items-center w-6 h-6 rounded-full -top-3 -right-3 text-sm bg-slate-200">0</span></Link>
+                    <Link className="text-lg p-2 rounded-full shadow text-black bg-white relative" to={"/wishlist"}><FaRegHeart /><span className="absolute flex justify-center items-center w-6 h-6 rounded-full -top-3 -right-3 text-sm bg-slate-200">0</span></Link>
                 </div>
             </div>
         </div>
